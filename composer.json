@@ -1,0 +1,21 @@
+{
+    "name": "tatiana/shop.loc",
+    "description": "shop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tatsiana Zhukava",
+            "email": "tatyzhv@tut.by"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master",
+        "vlucas/phpdotenv": "^2.5@dev"
+    },
+
+    "autoload": {
+        "psr-4": {"app\\": "application/"}
+    }
+
+}
